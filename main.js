@@ -21,7 +21,10 @@ function openBox(){
     $(".row").css({'display':'none'})
     textarea = document.querySelector(".reward")
     textarea.textContent = "20 ADA!!!!"
-    setTimeout(claimPresent(),2000)
+    
+    button = document.querySelector(".next")
+    button.textContent = "Continue"
+    button.addEventListener('click',claimPresent)
 
 }
 
@@ -39,7 +42,7 @@ function load(){
 
     setTimeout(function(){
         $('.next').css({'opacity':'1'})
-    },17500)
+    },1750)
 }
 
 
