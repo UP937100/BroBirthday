@@ -42,7 +42,7 @@ function load(){
 
     setTimeout(function(){
         $('.next').css({'opacity':'1'})
-    },1750)
+    },17500)
 }
 
 
